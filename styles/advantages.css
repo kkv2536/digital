@@ -1,0 +1,99 @@
+.advantages {
+    padding-top: 144px;
+    padding-bottom: 147px;
+}
+
+.blocks {
+    margin: 0 -21px 0;
+    margin-top: 63px;
+}
+
+.block {
+    display: inline-block;
+    max-width: 375px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 60px 37px 60px;
+    background: var(--primary);
+    transition: 0.3s;
+}
+
+.block:hover {
+    background: var(--links);
+    box-shadow: 0 0 120px var(--primary);
+}
+
+.block-text {
+    font-size: 14px;
+    line-height: 187.5%;
+    color: #525252
+}
+
+.btn-block {
+    padding: 7px 35px 6px 14px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    line-height: 187.5%;
+}
+
+.color {
+    color: #B000DC;
+    background: rgba(176, 0, 220, 0.11);
+}
+
+.colored {
+    color: #DC1A00;
+    background: rgba(220, 66, 0, 0.11);
+}
+
+.painted {
+    color: #00DC72;
+    background: rgba(0, 220, 141, 0.11);
+}
+
+@media (max-width:1200px) {
+    .blocks {
+        text-align: center;
+    }
+
+    .block {
+        margin-top: 40px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 992px) {
+    .blocks {
+        text-align: center;
+    }
+
+    .block {
+        margin-top: 40px;
+        text-align: left;
+    }
+}
+
+@media (max-width:768px) {
+    .block {
+        position: relative;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .block:hover::after {
+        content: 'Read more →';
+        color: var(--details);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 187.5%;
+        position: absolute;
+        right: 30px;
+    }
+}
+
+
+

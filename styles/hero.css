@@ -1,0 +1,147 @@
+.wrapper-hero {
+    background-color: rgba(226, 122, 12, 0.12);
+    max-width: 100%;
+}
+
+.banner {
+    max-width: 739px;
+    position: relative;
+}
+
+.hero {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-text {
+    max-width: 425px;
+    margin: 0 auto;
+    padding-top: 112px;
+    padding-bottom: 50px;
+}
+
+.text-banner {
+    font-size: 15px;
+    line-height: 208.5%;
+    color: #525252;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.banner-link {
+    font-size: 12px;
+    line-height: 208.5%;
+    color: var(--details);
+    text-decoration: none;
+    margin-right: 20px;
+    position: relative;
+    margin-bottom: 38px;
+}
+
+.banner-link-early::after {
+    content: '>';
+    position: absolute;
+    right: -15px;
+}
+
+
+.banner-link-early {
+    color: #848484;
+}
+
+.button {
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    border-radius: 40px;      
+    padding: 10px 19px 10px;  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--links);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.arrow {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.button:hover {
+    opacity: 0.3;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.arrows {
+    position: absolute;
+    top: 609px;
+    max-width: 179px;
+    background: #333333;
+    color: var(--links);
+    padding: 17px 3px 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 208.5%;
+}
+
+.arrows button {
+    border: none;
+    background: none;
+    color: var(--links);
+    font-size: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+@media (max-width: 992px) {
+    .banner {
+        max-width: 540px;
+    }
+ 
+    .banner-link {
+        font-size: 10px;
+        margin-bottom: 28px;
+    }
+ 
+    .banner-text {
+        max-width: 350px;
+        padding-top: 90px;
+    }
+ 
+    .text-banner {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+ 
+     .arrows  {
+         top: 425px;
+     }
+}
+ 
+@media (max-width: 768px) {
+    .hero {
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .banner {
+        max-width: 760px;
+    }
+
+    .banner-img {
+        order: 0;
+    }
+
+    .banner-text {
+       order: 1;
+    }
+
+    .arrows {
+        top: 627px;
+    }
+}
+

@@ -1,0 +1,154 @@
+.wrapper-footer {
+    background: var(--secondary);
+    max-width: 100%;
+    padding-top: 59px;
+    padding-bottom: 29px;
+    position: relative;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    max-width: 71px;
+    margin-bottom: 27px;
+}
+
+.logo-text {
+    max-width: 372px;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--links);
+    text-decoration: none;
+}
+
+.cpmpany-com {
+    margin-top: 25px;
+}
+
+.head {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: var(--links);
+}
+
+.aboutus a {
+    display: block;
+    transition: 0.3s;
+    margin-bottom: 7px;
+}
+
+.aboutus a:hover {
+    color: var(--details);
+}
+
+.contactus {
+    max-width: 282px;
+}
+
+.icons {
+    padding-top: 137px;
+}
+
+.icons a{
+    background: var(--links);
+    border-radius: 50%;
+    color: #000000;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-right: 16px;
+    transition: 0.5s;
+}
+
+.fb {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.ig {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tw {
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.in {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.icons a:hover {
+    color: var(--links);
+    background: var(--details);
+}
+
+.contactus a {
+    margin-top: 11px;
+}
+
+.contactus .head {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    font-size: 13px;
+    line-height: 190.6%;  
+    color: var(--links);  
+    padding-top: 29px;
+    text-align: center;
+}
+
+.wrapper-footer::before {
+    content: '';
+    position: absolute;
+    border-top: 1px solid var(--links);
+    width: 100%;
+    bottom: 70px;
+}
+
+@media (max-width: 992px) {
+    .icons {
+        display: block;
+        max-width: 40px;
+        padding-top: 10px;
+    }
+
+    .icons i {
+        margin-bottom:35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .contuctus {
+        max-width: 150px;
+    }
+
+    .logo-text {
+        max-width: 200px;
+    }
+
+    .icons {
+        display: block;
+        max-width: 40px;
+        padding-top: 10px;
+    }
+
+    .icons i {
+        margin-bottom:35px;
+    }
+}
+

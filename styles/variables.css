@@ -1,0 +1,13 @@
+:root {
+    --primary: #F5F5F5;
+    --secondary: #1B1B1B;
+    --details: #DC7000;
+    --links: #FFFFFF;
+    --head: #222222;
+    --newsdet: #2351F5;
+    --smash: #FFFCFC;
+    --min: #424242;
+    --md: 1200px;
+    --sm: 992px;
+    --xs: 768px;
+}

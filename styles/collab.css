@@ -1,0 +1,69 @@
+.wrapper-collab {
+    background: var(--primary);
+    max-width: 100%;
+    padding-top: 70px;
+    padding-bottom: 77px;
+}
+
+.collab {
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.collab a {
+    text-decoration: none;
+    margin-right: 76px;
+}
+
+.university {
+    max-width: 105px;
+}
+
+.jumeirah {
+    max-width: 158px;
+}
+
+
+.mega {
+    max-width: 156px;
+}
+
+.earth {
+    max-width: 147px;
+}
+
+.biotechne {
+    max-width: 176px;
+}
+
+@media (max-width: 992px) {
+    .collab {
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .collab::-webkit-scrollbar {
+        background: none;
+    }
+
+    .collab::-webkit-scrollbar-track {
+        background: none;
+    }
+}
+
+@media (max-width:768px) {
+    .collab {
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .collab::-webkit-scrollbar {
+        background: none;
+    }
+
+    .collab::-webkit-scrollbar-track {
+        background: none;
+    }
+}
+

@@ -1,0 +1,42 @@
+.hero-news {
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 103px;
+}
+
+.hero-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187.5%;
+    color: #898989;
+    margin-top: 13px;
+    margin-bottom: 44px;
+}
+
+.search {
+    border-radius: 10px;
+    background: #F1F1F1;
+    padding: 9px 20px 10px 59px;
+    border: none;
+}
+
+.search::placeholder {
+    font-size: 16px;
+    line-height: 189.5%;    
+    color: #727272;
+}
+
+.string {
+    position: relative;
+    margin-top: 30px;
+}
+
+.search-btn {
+    position: absolute;
+    border: none;
+    background: none;
+    top: 9px;
+    left: 485px;
+    color: #727272;
+    font-size: 16px;
+}
